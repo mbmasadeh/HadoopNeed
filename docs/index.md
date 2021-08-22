@@ -5,8 +5,14 @@ Hadoop, the main name in bigdata and data analytics world, was founded in the la
 The term of "Distributed" means that hadoop is running over a hundreds but thousends of machines, this structure will dollout the workload between the nodes, and also an easy hardware replacment once needed. Thus, Hadoop got a solid based to getting started in bigdata era and shortly become the master in this topic. Hadoop can treats many kind and resources of data due to its running over a bunch of ecosystems, such as HDFS (Hadoop distributed file system), MapReduce, YARN, Hive, Sqoop, Pig, Flume, Spark and all the rest. However, each one of these ecosystems is directed to a specific job in data analysis.
 
 HDFS, is Hadoop file system used to store data.
-MapReduce is for disributing processing
-YARN is for resource management 
+MapReduce is for disributing processing (Batch Processing)-Slow
+YARN is for resource management
+Spark is for distributing processing (In memory processing)-Fast
+Hive is for structured data "SQL" and its Hive name "HQL"
+Sqoop and Flume are both for data injection.
+
+Since that time till now, there are many ecosystems was developed and pushed to work under Hadoop umbrella such as Storm, Ranger, and Spark2. However, to run hadoop in a best practice, you have to build a cluster, actually, a huge cluster running one Namenode and thousends of Datanodes are all running on premise. Hadoop must be available at anytime its required to fetch some info from the cluster; the challenge start begins when the on primes cluster required a lot of maintenance services and hardware replacement to keep the cluster up and running. The second challenge is came from the cluster it self in a term of "Big data in small files".
+
 
 ## Welcome to GitHub Pages
 
