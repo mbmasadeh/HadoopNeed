@@ -1,5 +1,13 @@
 ## Hadoop, do we still need it?
 
+Hadoop, the main name in bigdata and data analytics world, was founded in the late of 2006 by Yahoo as a new era in all data topics such as data seinces and data structure. Hadoop is an open sources platform for distributed storage and distributed processing thats targiting bigdata processing. In that time (2006), the term of "BigData" was still new to the data world thats the contemporary data tools was unable to obsorbing the daily bigdata in all of structured, semi-structured and non-structured faces.
+
+The term of "Distributed" means that hadoop is running over a hundreds but thousends of machines, this structure will dollout the workload between the nodes, and also an easy hardware replacment once needed. Thus, Hadoop got a solid based to getting started in bigdata era and shortly become the master in this topic. Hadoop can treats many kind and resources of data due to its running over a bunch of ecosystems, such as HDFS (Hadoop distributed file system), MapReduce, YARN, Hive, Sqoop, Pig, Flume, Spark and all the rest. However, each one of these ecosystems is directed to a specific job in data analysis.
+
+HDFS, is Hadoop file system used to store data.
+MapReduce is for disributing processing
+YARN is for resource management 
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/mbmasadeh/HadoopNeed/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
